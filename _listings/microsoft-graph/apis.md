@@ -33,7 +33,34 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/drives/master/_listings/microsoft-graph/groups-id-drives-get.md
+- name: Microsoft Graph API List Available Drives
+  description: List available drives Retrieve the list of Drive resources available
+    for a target User or Group. Your app can also request the set of document libraries
+    on the SharePoint root site.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Drives
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/drives/master/_listings/microsoft-graph/drives-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/drives/master/_listings/microsoft-graph/drives-get-postman.md
 x-common:
+- type: x-change-loge
+  url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
+- type: x-documentation
+  url: https://developer.microsoft.com/en-us/graph/docs
+- type: x-explorer
+  url: https://developer.microsoft.com/en-us/graph/graph-explorer
+- type: x-getting-started
+  url: https://developer.microsoft.com/en-us/graph/docs/get-started/rest
+- type: x-github
+  url: https://github.com/microsoftgraph
+- type: x-sdk
+  url: https://developer.microsoft.com/en-us/graph/code-samples-and-sdks
+- type: x-website
+  url: https://developer.microsoft.com/en-us/graph/
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
 - type: x-documentation
